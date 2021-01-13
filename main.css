@@ -1,4 +1,20 @@
 
+/* main selectors start */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    object-fit: none;
+}
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: white;
+}
+/* main selectors end */
+
 /* first row start */
     header {
         display: flex;
@@ -38,10 +54,7 @@
                 margin-left: 25px;
                 margin-right: 10px;
             }
-            a {
-                text-decoration: none;
-                color: black;
-            }
+            
             
             .a-2column {
                 margin-right: 5px;
@@ -89,3 +102,57 @@
                   }
 
 /*  second row end*/
+
+/* 3rd row central image start */
+.img-row3 {
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+}
+/* 3rd row central image end */
+
+/* 4th row 4 columns start */
+.div-row4 {
+    display: flex;
+    width: 1450px;
+    padding-left: calc((100% - 1450px)/2);
+    padding-right: calc((100% - 1450px)/2);
+    background-color: #004B85;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+    .div-column{
+        display: flex;
+        width: 20%;
+        margin-top: 20px;
+    }
+        .div-column > img {
+            align-self: flex-start;
+            margin-right: 20px;
+            margin-top: 5px;
+        }
+            div > div > div {
+            flex-direction: column;
+            }
+                div > div > p {
+                    margin: 0;
+                    color: white;
+                }
+                .h2-column1 {
+                    max-width: 48%;
+                }
+                .h2-column2 {
+                    max-width: 69%;
+                }
+                .h2-column3 {
+                    max-width: 67%;
+                }
+                .h2-column4 {
+                    max-width: 35%;
+                }
+                    p > a {
+                        color: white;
+                    }
+/* 4th row 4 columns end */
+
